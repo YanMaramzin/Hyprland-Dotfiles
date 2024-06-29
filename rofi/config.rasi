@@ -1,0 +1,20 @@
+* {
+    // background:  transparent;
+}
+
+configuration {
+    display-drun: "App";
+    display-window: "Windows:";
+    drun-display-format: "{name}";
+    font: "JetBrainsMono Nerd Font 13";
+    show-icons: true;
+    // location: 2;
+    // combi-modes: [window,drun];
+}
+
+// @theme "/dev/null" 
+
+window {
+    location: center;
+    anchor: north;
+}

@@ -2,10 +2,21 @@
 TERM = "xterm-256color"
 
 [window]
-decorations = "Buttonless"
-opacity = 0.6
+decorations = "None"
+opacity = 0.5
 blur = true
-
+padding = { x = 10, y = 5}
 
 [font]
+normal.family = "JetBrainsMono Nerd Font"
 size = 12.0
+
+[selection]
+save_to_clipboard = false
+
+[mouse]
+hide_when_typing = false
+bindings = [
+{ mouse = "Right", mods = "Control", action = "Paste" },
+]
+
